@@ -59,19 +59,19 @@ Although both VirtualBox and Vagrant are widely used in the industry, it doesn�
    *you don’t have to execute this command line everyday, only once, to create a new virtual machine*
 
 <p align="center">
-  <img src="" alt="Image"/>
+  <img src="https://github.com/user-attachments/assets/6f82fe1c-655e-41a0-9770-7f9671a10fd6" alt="Image"/>
 </p>
 
    `$ vagrant up` → it will start your virtual machine  
 
 <p align="center">
-  <img src="" alt="Image"/>
+  <img src="https://github.com/user-attachments/assets/1e9d7ce8-bd76-47ab-bb0c-ee0924db2fb0" alt="Image"/>
 </p>
 
    `$ vagrant ssh` → now you are inside your virtual machine
 
 <p align="center">
-  <img src="" alt="Image"/>
+  <img src="https://github.com/user-attachments/assets/2c0562b0-5ecc-4bb8-ab95-2e0a215bf496" alt="Image"/>
 </p>
 
 ### Windows
@@ -85,16 +85,30 @@ Although both VirtualBox and Vagrant are widely used in the industry, it doesn�
    *Warning: this step can take time*  
     Many other images are available [here](https://portal.cloud.hashicorp.com/vagrant/discover)
 
+  <p align="center">
+  <img src="https://github.com/user-attachments/assets/2b7f4bcf-0c43-4762-a2b1-5548a4127f74" alt="Image"/>
+</p>
 
   - Create your first virtual machine:  
     - `C:\Users\julien> vagrant init ubuntu/focal64` → it will generate a Vagrantfile with `base = "ubuntu/focal64"` 
     *-you don’t have to execute this command line everyday, only once, to create a new virtual machine*
 
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fc321377-21c6-498d-a514-9b9c4f8b1591" alt="Image"/>
+</p>
+
    - `C:\Users\julien> vagrant plugin install vagrant-vbguest` → to avoid issue with the last version of Vagrant (2.2.4 or latest)  
    - `C:\Users\julien> vagrant up` → it will start your virtual machine
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1d9c2af2-68ba-45e4-88e2-ceb2f163d80e" alt="Image"/>
+</p>
 
    `C:\Users\julien> vagrant ssh` → now you are inside your virtual machine.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/419ec2ea-2c03-4af6-965d-aa107695d66d" alt="Image"/>
+</p>
+
 
 ### Ubuntu
 1. Open the Terminal application:  

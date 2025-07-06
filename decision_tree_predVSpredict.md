@@ -2,7 +2,7 @@
 
 Predicting the class of an individual in a decision tree can be done by the following simple procedure:
 
-```
+```python
 # in the Leaf class, add :
     def pred(self,x) :
         return self.value
@@ -23,7 +23,7 @@ Predicting the class of an individual in a decision tree can be done by the foll
 
 **Main:** For example, with these methods added in their respective classes, when evaluating
 
-```
+```python
 print( example_0().pred(  np.array([1,22000])) ) 
 print( example_0().pred(  np.array([0,22000])) )
 print( example_1(4).pred( np.array([11.65]))   )
@@ -57,7 +57,7 @@ or not. To be explicit, these inequalities are of the form `A[:,anode.feature]>a
 
 **Example:** Once the `Decision_Tree.predict` attribute will be computed, we will be able to compare its efficiency with that of the above defined `Decision_Tree.pred`. Here is a report of such a comparison ran on an i5-5257U CPU with a 16GB RAM .
 
-```
+```python
 import time
 def time_function (f, n_iter=100) :
     def time_one_iter() :
